@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Box, Text, Heading, Stack, VStack, Image, Container, HStack } from '@chakra-ui/react';
+import { Box, Heading, VStack, HStack } from '@chakra-ui/react';
 import { DiGithub, DiHeroku, DiLinux, DiReact, DiWindows } from 'react-icons/di';
 import { DiMongodb } from 'react-icons/di';
 import { DiFirebase } from 'react-icons/di';
@@ -11,13 +11,13 @@ import { DiAws } from 'react-icons/di';
 import { DiDocker } from 'react-icons/di';
 import { DiMysql } from 'react-icons/di';
 import { GrNode } from 'react-icons/gr';
-import { SiCanva, SiFigma, SiFlutter } from 'react-icons/si';
+import { SiCanva, SiFigma } from 'react-icons/si';
 import { SiAndroidstudio } from 'react-icons/si';
 
 const Skills = () => {
     return (
         <Box>
-            <Heading textAlign={"center"} children="My Expertise" />
+            <Heading textAlign={"center"} children="My Expertise 👨‍💻" />
             <VStack mt={["12", "20"]} spacing={"8"}>
                 <HStack fontSize={["5xl","8xl"]}>
                     <DiReact />

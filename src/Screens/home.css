@@ -7,12 +7,26 @@
 #vetor-graphics {
     border-radius: 100%;
     filter: drop-shadow(0 40px 10px rgba(0, 0, 0, 0.3));
-    animation: imageAnimation 1s infinite ease-in-out alternate;
+    animation: imageUpAnimation 1s infinite ease-in-out alternate;
+}
+.work{
+    transition: 0.5s all;
+    padding: 5;
 }
 
-@keyframes imageAnimation {
+.work:hover{
+    animation: zoomView 1s infinite ease-in-out alternate;
+}
+
+@keyframes imageUpAnimation {
     to {
         transform: translateY(-10px);
+    }
+}
+
+@keyframes zoomView {
+    to {
+        transform: scale(1.05);
     }
 }
 

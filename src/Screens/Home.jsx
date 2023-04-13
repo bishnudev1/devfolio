@@ -7,10 +7,10 @@ const Home = () => {
     return (
         <section className='portfolio'>
             <div className="container">
-                <Stack mt={["20","0"]} spacing={["16", "56"]} height={"100%"} justifyContent={["center", "space-between"]} alignItems={"center"} direction={["column", "row"]}>
+                <Stack mt={["10","0"]} spacing={["16", "56"]} height={"100%"} justifyContent={["center", "space-around"]} alignItems={"center"} direction={["column", "row"]}>
                     <VStack width="full" spacing={"8"} alignItems={["center", "flex-start"]} justifyContent={["center", "flex-start"]}>
                         <Heading size={"2xl"} textAlign={["center", "left"]} children="<>Hello, World !</>" />
-                        <Text fontFamily={'cursive'} textAlign={["center", "left"]} fontSize={"2xl"}>Myself Bishnudev Khutia. A CSE Scholer & Fullstack Developer from India. Currently working as a SDE Intern at Merkos.</Text>
+                        <Text fontFamily={'cursive'} textAlign={["center", "left"]} fontSize={"xl"}>Myself Bishnudev Khutia. A CSE Scholer & Fullstack Developer from India. Currently working as a SDE Intern at Merkos.</Text>
                         <Button size={"lg"} variant={"solid"} colorScheme='purple'>My Resume</Button>
                     </VStack>
                     <Image id='vetor-graphics' src={Profile} boxSize={"md"} objectFit={"contain"} />

@@ -7,6 +7,7 @@ import About from './Screens/About'
 import Projects from './Screens/Projects'
 import Skills from './Screens/Skills'
 import Works from './Screens/Works'
+import Contact from './Screens/Contact'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Skills />
       <Projects />
       <Works />
+      <Contact />
       <Footer />
     </ChakraProvider>
   )
