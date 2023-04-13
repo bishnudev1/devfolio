@@ -1,20 +1,19 @@
 import React from 'react'
 import { Button, Text, Heading, Stack, VStack, Image, Container, HStack } from '@chakra-ui/react';
-import Web from '../Assets/Images/Web Development Images/image1.svg';
 import projectData from '../Data/data';
 
 const Project = ({ name, desc, image, checkUrl, forkUrl }) => {
     return <VStack
         className='project'
         w={'3xs'}
- alignItems={["center", "flex-start"]} justifyContent={"center"}>
+        alignItems={["center", "flex-start"]} justifyContent={"center"}>
         <Image src={image} objectFit={'contain'} boxSize={"60"} />
         <Heading size={"sm"} textAlign={["center", "left"]} children={name} />
         <Text
             textAlign={["center", "left"]}>{desc}</Text>
         <HStack alignItems={["center", "flex-start"]}>
-            <Button onClick={() => window.location.href = {checkUrl}} variant={"outline"} colorScheme='purple'>Check</Button>
-            <Button onClick={() => window.location.href = {forkUrl}} variant={"ghost"} colorScheme='purple'>Fork</Button>
+            <a href={checkUrl} target='_blank'><Button variant={"outline"} colorScheme='purple'>Check</Button></a>
+            <a href={forkUrl} target='_blank'><Button variant={"ghost"} colorScheme='purple'>Fork</Button></a>
         </HStack>
     </VStack>
 }

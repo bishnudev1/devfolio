@@ -10,15 +10,15 @@ const projectData = [
         name: 'Devfolio',
         image: devfolio,
         desc: 'A customizable and  minimal React portfolio for Software Engineers',
-        checkUrl: '',
-        forkUrl: ''
+        checkUrl: 'https://bishnu-dev.netlify.app/',
+        forkUrl: 'https://github.com/bishnudev1/devfolio'
     },
     {
         id: 2,
         name: 'Detailbook',
         image: detailbook,
         desc: 'A story writing social site with Authentication made with React, Express and Mongoose',
-        checkUrl: '',
+        checkUrl: '#',
         forkUrl: 'https://github.com/bishnudev1/detailbook-server'
     },
     {
@@ -26,7 +26,7 @@ const projectData = [
         name: 'Fireblogs',
         image: fireblogs,
         desc: 'A simple blog app with Flutter and Firebase with Authentication',
-        checkUrl: '',
+        checkUrl: '#',
         forkUrl: 'https://github.com/bishnudev1/fireblogs'
     },
     {
@@ -34,7 +34,7 @@ const projectData = [
         name: 'NPX Card',
         image: npxcard,
         desc: 'Just hit "npx bishnudev" in your terminal. Make sure Node JS is installed in your machine',
-        checkUrl: '',
+        checkUrl: '#',
         forkUrl: 'https://github.com/ShreyamMaity/npx-card'
     },
     {
