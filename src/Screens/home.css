@@ -1,0 +1,25 @@
+.container{
+    height: 100vh;
+    padding: 5rem;
+    box-sizing: border-box;
+}
+
+#vetor-graphics {
+    border-radius: 100%;
+    filter: drop-shadow(0 40px 10px rgba(0, 0, 0, 0.3));
+    animation: imageAnimation 1s infinite ease-in-out alternate;
+}
+
+@keyframes imageAnimation {
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+.project{
+    transition: 0.5s all;
+}
+
+.project:hover{
+    transform: translateY(-10px);
+}
