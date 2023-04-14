@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, Text, Heading, Stack, VStack, Image, Container, HStack } from '@chakra-ui/react';
-import projectData from '../Data/data';
+import { projectData } from '../Data/data';
 
 const Project = ({ name, desc, image, checkUrl, forkUrl }) => {
     return <VStack

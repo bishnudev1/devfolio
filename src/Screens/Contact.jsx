@@ -1,6 +1,7 @@
 import { Container, Heading, VStack, Text, Button, HStack } from '@chakra-ui/react'
 import React from 'react'
 import { SiGithub, SiInstagram, SiLinkedin } from 'react-icons/si'
+import { connectData } from '../Data/data'
 
 const Contact = () => {
     return (
@@ -8,13 +9,13 @@ const Contact = () => {
             <Heading textAlign={"center"}>Let's Connect 🫡</Heading>
             <VStack mt={["10", "12"]} spacing={"8"}>
                 <HStack>
-                    <a href="https://www.linkedin.com/in/bishnudevkhutia/" target='_blank'>
+                    <a href={connectData.linkedinUrl} target='_blank'>
                         <Button colorScheme='blue' variant={'solid'} size={["sm", "lg"]}>Linked<SiLinkedin /></Button>
                     </a>
-                    <a href="https://www.instagram.com/bishnudev_ig/" target='_blank'>
+                    <a href={connectData.instagramUrl} target='_blank'>
                         <Button colorScheme='blue' variant={'solid'} size={["sm", "lg"]}>Instagram<SiInstagram /></Button>
                     </a>
-                    <a href="https://github.com/bishnudev1" target='_blank'>
+                    <a href={connectData.githubUrl} target='_blank'>
                         <Button colorScheme='blue' variant={'solid'} size={["sm", "lg"]}>Github<SiGithub /></Button>
                     </a>
                 </HStack>

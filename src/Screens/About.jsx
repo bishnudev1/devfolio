@@ -1,11 +1,12 @@
 import React from 'react'
 import { Text, Heading, VStack } from '@chakra-ui/react';
+import { aboutData } from '../Data/data';
 
 const About = () => {
   return (
         <VStack mt={["10","0"]} px={["10","56"]} py={"16"} spacing={"8"} w={'100%'} justifyContent={"center"} alignItems={"center"}>
             <Heading children="Know Me 😇"/>
-            <Text pt={"5"} textAlign={["center","left"]} fontFamily={"mono"} fontSize={"xl"}>I am a hardcore technology lover since my childhood as well as a Math-Physics student in my high school. Currently I'm pursing my Bachelor of Technology degree in Computer Science & Engineering from CEM, Kolaghat. I got taste my first programming language in my 10th standard and it was Python. Since then I am trying to learn new technologies and building projects. Recently I have switched to Open Source Community to explore more variety of techs. Beside I love to play games in my free time & exploring new places around the world. I will be more happy if you call me a problem solver rather than just a developer :)</Text>
+            <Text pt={"5"} textAlign={["center","left"]} fontFamily={"mono"} fontSize={"xl"}>{aboutData.desc}</Text>
         </VStack>
   )
 }
