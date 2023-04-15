@@ -17,8 +17,8 @@ import { SiAndroidstudio } from 'react-icons/si';
 const Skills = () => {
     return (
         <Box>
-            <Heading textAlign={"center"} children="My Expertise 👨‍💻" />
-            <VStack mt={["12", "20"]} spacing={"8"}>
+            <Heading mb={"20"} textAlign={"center"} children="My Expertise 👨‍💻" />
+            <VStack spacing={"8"}>
                 <HStack fontSize={["5xl","8xl"]}>
                     <DiReact />
                     <DiMongodb />

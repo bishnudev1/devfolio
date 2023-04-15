@@ -30,8 +30,8 @@ const Work = ({ name, role, duration, techStack, description }) => {
 const Works = () => {
 
     return (
-        <Box>
-            <Heading py={"10"} textAlign={"center"} children="My Works 🤓" />
+        <Box >
+            <Heading mb={"4"} py={"10"} textAlign={"center"} children="My Works 🤓" />
             <VStack px={["4", "6"]} w={"100%"} spacing={"8"} justifyContent={["center", "space-between"]}>
                 <Work
                     name={worksData.project1.name}
