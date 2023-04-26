@@ -1,4 +1,18 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
+=======
+# <p align="center">Devpolio
+
+<p align="center">
+<img src=https://badges.frapsoft.com/os/v2/open-source.svg?v"/>
+<img src=https://visitor-badge.glitch.me/badge?page_id=bishnudev1.devfolio"/>
+<img src="https://img.shields.io/github/license/bishnudev1/devfolio"/>
+<img src="https://img.shields.io/github/stars/bishnudev1/devfolio"/>
+<img src="https://img.shields.io/github/forks/bishnudev1/devfolio"/>
+<img src="https://img.shields.io/badge/Contributors-Welcome-orange"/>
+<img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
+</p>
+>>>>>>> a83e1195b0d4388cf03215917517c7c9a0e1d8db
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
