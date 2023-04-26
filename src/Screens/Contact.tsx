@@ -9,13 +9,13 @@ const Contact = () => {
             <Heading mb={"20"} textAlign={"center"}>Let's Connect 🫡</Heading>
             <VStack spacing={"8"}>
                 <HStack>
-                    <a href={connectData.linkedinUrl} target='_blank'>
+                    <a href={connectData.linkedinUrl} target='_blank' rel="noreferrer">
                         <Button colorScheme='blue' variant={'solid'} size={["sm", "lg"]}><span style={{ marginRight: '0.4em' }}>Linked</span><SiLinkedin /></Button>
                     </a>
-                    <a href={connectData.instagramUrl} target='_blank'>
+                    <a href={connectData.instagramUrl} target='_blank' rel="noreferrer">
                         <Button colorScheme='blue' variant={'solid'} size={["sm", "lg"]}><span style={{ marginRight: '0.4em' }}>Instagram</span><SiInstagram /></Button>
                     </a>
-                    <a href={connectData.githubUrl} target='_blank'>
+                    <a href={connectData.githubUrl} target='_blank' rel="noreferrer">
                         <Button colorScheme='blue' variant={'solid'} size={["sm", "lg"]}><span style={{ marginRight: '0.4em' }}>Github</span><SiGithub /></Button>
                     </a>
                 </HStack>

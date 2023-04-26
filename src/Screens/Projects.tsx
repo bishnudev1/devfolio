@@ -2,7 +2,16 @@ import React from 'react'
 import { Button, Text, Heading, Stack, VStack, Image, Container, HStack } from '@chakra-ui/react';
 import { projectData } from '../Data/data';
 
-const Project = ({ name, desc, image, checkUrl, forkUrl }) => {
+
+interface ProjectProps {
+    name: string;
+    desc: string;
+    image: string;
+    checkUrl: string;
+    forkUrl: string;
+  }
+
+const Project = ({ name, desc, image, checkUrl, forkUrl } : ProjectProps) => {
     return <VStack
         className='project'
         w={'3xs'}
@@ -12,8 +21,8 @@ const Project = ({ name, desc, image, checkUrl, forkUrl }) => {
         <Text
             textAlign={["center", "left"]}>{desc}</Text>
         <HStack alignItems={["center", "flex-start"]}>
-            <a href={checkUrl} target='_blank'><Button variant={"outline"} colorScheme='purple'>Check</Button></a>
-            <a href={forkUrl} target='_blank'><Button variant={"ghost"} colorScheme='purple'>Fork</Button></a>
+            <a href={checkUrl} target='_blank' rel="noreferrer"><Button variant={"outline"} colorScheme='purple'>Check</Button></a>
+            <a href={forkUrl} target='_blank' rel="noreferrer"><Button variant={"ghost"} colorScheme='purple'>Fork</Button></a>
         </HStack>
     </VStack>
 }

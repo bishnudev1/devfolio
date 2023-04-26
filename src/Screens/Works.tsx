@@ -1,11 +1,16 @@
 import { VStack, Heading, Text, HStack, Box } from '@chakra-ui/react'
-import React from 'react'
-import { SiCanva, SiFigma, SiFirebase, SiFlutter, SiGraphql, SiMicrosoftexcel, SiMongodb, SiNodeDotJs, SiYoutube } from 'react-icons/si'
-
 import { worksData } from '../Data/data'
 
 
-const Work = ({ name, role, duration, techStack, description }) => {
+interface WorkProps {
+    name: string,
+    role: string,
+    duration: string,
+    techStack: Array<any>,
+    description: string
+}
+
+const Work = ({ name, role, duration, techStack, description } : WorkProps) => {
 
     return <VStack
         className='work'
@@ -14,7 +19,7 @@ const Work = ({ name, role, duration, techStack, description }) => {
         <Heading fontFamily={"body"} size={"lg"}>{name}</Heading>
         <HStack>
             <Text fontStyle={"initial"} fontSize={["sm", "xl"]}>{role}</Text>
-            <Text color={'rosybrown'} fontSize={["sm", "xl"]}>[ {duration} ]</Text>
+            <Text fontSize={["sm", "xl"]}>[ {duration} ]</Text>
         </HStack>
         <HStack justifyContent={"space-evenly"} w={"100%"} fontSize={"30"}>
             {techStack.map((icon, index) => (
