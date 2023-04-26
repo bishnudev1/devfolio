@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
-=======
 # <p align="center">Devpolio
 
 <p align="center">
@@ -12,49 +9,26 @@
 <img src="https://img.shields.io/badge/Contributors-Welcome-orange"/>
 <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
 </p>
->>>>>>> a83e1195b0d4388cf03215917517c7c9a0e1d8db
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Techstack
+- React JS & Chakra-UI
 
-## Available Scripts
+## Installation
+- Star and fork the repo
+- Now clone the repo and open with github desktop
+- Install the dependencies by
+```bash
+  npm install
+```
+- Run the project using
+```bash
+  npm start
+```
+- Open <b>data.js</b> from <b>src/Data/Data.js</b> and add your data
+- Build your production app using
+```bash
+  npm run build
+```
+- Deploy or host it in Netlify/Vercel etc.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### I have spent a good amount of time building this project. If you like my work and find it helpful for you then give this repo a star and share this. Thank you 🙂.
