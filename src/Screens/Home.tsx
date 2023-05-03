@@ -1,4 +1,3 @@
-import React from 'react'
 import { Button, Text, Heading, Stack, VStack, Image } from '@chakra-ui/react';
 import './home.css';
 import { homeData } from '../Data/data';
@@ -11,7 +10,7 @@ const Home = () => {
                     <VStack width="full" spacing={"8"} alignItems={["center", "flex-start"]} justifyContent={["center", "flex-start"]}>
                         <Heading size={"2xl"} textAlign={["center", "left"]} children="<>Hello, World !</>" />
                         <Text fontFamily={'cursive'} textAlign={["center", "left"]} fontSize={"xl"}>{homeData.intro}</Text>
-                        <a href="https://drive.google.com/file/d/1eqlQ4KgvHWfQ075g8XWwanyzhPek3qqn/view?usp=sharing" target='_blank' rel="noreferrer" download='true'><Button size={"lg"} variant={"solid"} colorScheme='purple'>My Resume</Button></a>
+                        <a href="https://drive.google.com/file/d/1_RlkGYripzWR4WyTQyHNgJF9LZeOSrlU/view?usp=sharing" target='_blank' rel="noreferrer" download='true'><Button size={"lg"} variant={"solid"} colorScheme='purple'>My Resume</Button></a>
                     </VStack>
                     <Image id='vetor-graphics' src={homeData.dp} boxSize={"md"} objectFit={"contain"} />
                 </Stack>
