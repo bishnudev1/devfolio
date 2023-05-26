@@ -86,15 +86,6 @@ export const worksData = {
         description: "Made more than 30+ lectures regarding Basic Science & Programming on Canva, edited them and deployed them in Youtube and Duonut official website."
     },
     project2: {
-        name: "Arowdox Pvt. Ltd.",
-        duration: "Oct 22 - Nov 22",
-        role: "Backend Developer Internship",
-        techStack: [<SiNodedotjs color='green' />,
-        <SiMongodb color='lightgreen' />,
-        <SiGraphql color='black' />],
-        description: "Created a fully optimize and scallable user and product API using Node JS, Express JS, Mongoose and GraphQL. Later deployed it to Amazon Web Services."
-    },
-    project3: {
         name: "Merkos 302",
         duration: "Dec 22 - Present",
         role: "Frontend Developer Internship",
