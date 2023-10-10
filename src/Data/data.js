@@ -5,12 +5,12 @@ import npxcard from '../Assets/Images/NPXCard.png';
 import bdaywisher from '../Assets/Images/Bdaywisher.png';
 import greenbook from '../Assets/Images/Greenbook.png';
 import dp from '../Assets/Images/Profile.jpg';
-import { SiCanva, SiFigma, SiFirebase, SiFlutter, SiGraphql, SiMicrosoftexcel, SiMongodb, SiNodedotjs, SiYoutube } from 'react-icons/si'
+import { SiAwslambda, SiCanva, SiFigma, SiFirebase, SiFlutter, SiGraphql, SiMicrosoftexcel, SiMongodb, SiNodedotjs, SiReact, SiYoutube } from 'react-icons/si'
 
 // Add Home Screen Data
 
 export const homeData = {
-    intro: "Myself Bishnudev Khutia. A CSE Scholer & Fullstack Developer from India. Currently working as a SDE Intern at Merkos.",
+    intro: "Myself Bishnudev Khutia. A CSE Scholer & Fullstack Developer from India. Currently working as a Full Stack Engineer at Timuz Games.",
     dp: dp
 };
 
@@ -87,13 +87,26 @@ export const worksData = {
     },
     project2: {
         name: "Merkos 302",
-        duration: "Dec 22 - Present",
-        role: "Frontend Developer Internship",
+        duration: "Dec 22 - Sep 1",
+        role: "Frontend Engineer",
         techStack: [<SiFlutter color='blue' />,
         <SiFirebase color='orange' />,
         <SiFigma color='red' />],
         description: "Created a fully responsive edtech platform for their upcoming startup with Flutter and Firebase. Currently working the state management part of it and will work on the API in future."
-    }
+    },
+    project3: {
+        name: "Timuz Games",
+        duration: "Sep 5 - Present",
+        role: "Full Stack Software Engineer",
+        techStack: [<SiFlutter color='blue' />,
+        <SiFirebase color='orange' />,
+        <SiReact color='blue' />,
+        <SiAwslambda color='orange' />,
+        <SiNodedotjs color='yellow' />,
+        <SiMongodb color='green' />
+    ],
+        description: "Working on a Live Chat application for their own startups."
+    },
 };
 
 // Add Social Data
