@@ -87,7 +87,7 @@ export const worksData = {
     },
     project2: {
         name: "Merkos 302",
-        duration: "Dec 22 - Sep 1",
+        duration: "Dec 22 - Sep 23",
         role: "Frontend Engineer",
         techStack: [<SiFlutter color='blue' />,
         <SiFirebase color='orange' />,
@@ -96,7 +96,7 @@ export const worksData = {
     },
     project3: {
         name: "Timuz Games",
-        duration: "Sep 5 - Present",
+        duration: "Sep 23 - Present",
         role: "Full Stack Software Engineer",
         techStack: [<SiFlutter color='blue' />,
         <SiFirebase color='orange' />,
