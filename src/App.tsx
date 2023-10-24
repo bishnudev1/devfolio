@@ -1,26 +1,41 @@
-import { ChakraProvider, theme } from '@chakra-ui/react'
+import {Route, Routes, BrowserRouter} from 'react-router-dom';
+import { ChakraProvider, theme, Text } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher'
-import About from './Screens/About'
-import Home from './Screens/Home'
-import Skills from './Screens/Skills'
-import Projects from './Screens/Projects'
-import Works from './Screens/Works'
-import Contact from './Screens/Contact'
-import Footer from './Screens/Footer'
+import Trading from './Screens/Trading'
+import Homepage from './Screens/Homepage'
+import app from './db/firebase.js';
+
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const App = () => {
+
+  if(app === null){
+    console.log("Firebase has not connected yet or failed to connect");
+    return <>
+      <Text>Server has crashed...</Text>
+    </>
+    
+  }
+
+  console.log("Firebase has connected...");
+  
+
+
   return (
     <ChakraProvider theme={theme}>
-      <ColorModeSwitcher/>
-      <Home />
-      <About />
-      <Skills />
-      <Projects />
-      <Works />
-      <Contact />
-      <Footer />
+    <ColorModeSwitcher />
+    <BrowserRouter>
+    <ToastContainer />
+     <Routes>
+      <Route path='/' element= {<Homepage/>}/>
+      <Route path='/earn-with-me' element={<Trading />} /> 
+    </Routes>
+    </BrowserRouter>
     </ChakraProvider>
   )
+
 }
 
 export default App

@@ -4,10 +4,19 @@
     box-sizing: border-box;
 }
 
+.tradingContainer{
+    height: 100vh;
+    box-sizing: border-box;
+}
+
 #vetor-graphics {
     border-radius: 100%;
     filter: drop-shadow(0 40px 10px rgba(0, 0, 0, 0.3));
     animation: imageUpAnimation 1s infinite ease-in-out alternate;
+}
+#trading-img-graphics {
+    border-radius: 100%;
+    filter: drop-shadow(0 40px 10px rgba(0, 0, 0, 0.3));
 }
 .work{
     transition: 0.5s all;

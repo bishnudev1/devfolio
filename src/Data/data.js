@@ -5,12 +5,13 @@ import npxcard from '../Assets/Images/NPXCard.png';
 import bdaywisher from '../Assets/Images/Bdaywisher.png';
 import greenbook from '../Assets/Images/Greenbook.png';
 import dp from '../Assets/Images/Profile.jpg';
-import { SiAwslambda, SiCanva, SiFigma, SiFirebase, SiFlutter, SiGraphql, SiMicrosoftexcel, SiMongodb, SiNodedotjs, SiReact, SiYoutube } from 'react-icons/si'
+import { SiAwslambda, SiCanva, SiCoinmarketcap, SiFigma, SiFirebase, SiFlutter, SiFurrynetwork, SiGooglemarketingplatform, SiGraphql, SiMicrosoftexcel, SiMongodb, SiNodedotjs, SiReact, SiReactivex, SiStardock, SiYoutube } from 'react-icons/si'
+
 
 // Add Home Screen Data
 
 export const homeData = {
-    intro: "Myself Bishnudev Khutia. A CSE Scholer & Fullstack Developer from India. Currently working as a Full Stack Engineer at Timuz Games.",
+    intro: "Myself Bishnudev Khutia. A Final Year CSE Student & GlobalX Trader from India. Currently working as a Full Stack Engineer at Timuz Games.",
     dp: dp
 };
 
@@ -106,6 +107,17 @@ export const worksData = {
         <SiMongodb color='green' />
     ],
         description: "Working on a Live Chat application for their own startups."
+    },
+    project4: {
+        name: "SDFX Global",
+        duration: "Oct 24 - Present",
+        role: "Junior Stock Trader",
+        techStack: [<SiMicrosoftexcel color='green' />,
+        <SiFurrynetwork color='black' />,
+        <SiCoinmarketcap color='blue' />,
+        <SiReactivex color='blue' />,
+    ],
+        description: "Working as a Stock Invester and Trader through SDFX Global, Dubai."
     },
 };
 

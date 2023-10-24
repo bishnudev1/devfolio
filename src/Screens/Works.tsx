@@ -59,6 +59,13 @@ const Works = () => {
                     techStack={worksData.project3.techStack}
                     description={worksData.project3.description}
                 />
+                                <Work
+                    name={worksData.project4.name}
+                    duration={worksData.project4.duration}
+                    role={worksData.project4.role}
+                    techStack={worksData.project4.techStack}
+                    description={worksData.project4.description}
+                />
             </VStack>
         </Box>
     )
